@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Vollkorn", serif;
+}
+section{
+    min-height: 150vh;
+    background-image:url("black\ vip\ bus.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    height: 100px;
+
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: rgb(200, 35, 162);
+}
+nav ul{
+    float: right;
+    line-height: 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px;
+
+}
+nav ul li a{
+    color: rgb(74, 70, 151);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 79, 9);
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #f15048;
+    
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+
+}
+.article h1{
+    font-size: 35px;
+    color: rgb(129, 222, 8);
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 20px;
+    color: rgb(22, 215, 164);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.4s ease;
+}
+
+
+/* ---------------Contact me ----------- */
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.9rem;
+    font-size: 2.5rem;
+   
+    color: rgb(129, 222, 8);
+    }
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0;      
+    }
+   
+    li span {
+      font-size: 1.5em;
+      color: rgba(242, 15, 238, 0.836);
+    }
+ 
+
+     /* -------------------- social media icons -------------- */
+
+     .left-container{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+    .left-container{
+        background: var(--secondary-grey) ;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    
+    }
+    .icons .fa-brands{
+        color: #0777ff;
+        color: 1.7rem;
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+     
+    }
+    .icons i {
+          font-size: 4rem; 
+        }
+    
+    .icons h2{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        padding: .4rem;
+        color: rgb(129, 222, 8);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
